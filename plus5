@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    #include <stdio.h>
+
+
+#if 1
+    int a, b, product;
+    a = 43;
+    b = 6;
+#else 
+    printf("A=> ");
+    scanf("%d", &a);
+    printf("B=> ");
+    scanf("%d", &b);
+#endif
+    // Calculating product
+    product = a >> b;
+    printf("a >> b ==> %d\n", product);
+    product = a << b;
+    printf("a << b ==> %d\n", product);
+    product = a & b;
+    printf("a & b  ==>  %d\n", product);
+    product = a | b;
+    printf("a | b ==> %d\n", product);   
+    return 0;
+}
