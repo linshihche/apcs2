@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+      
+
+printf("Hello World lin, your height is %d m %d cm \n",1,70);
+printf("Hello World lin, your height is %d m %d cm ",1,70); 
+
+printf(" my height is %d m %d cm \n",1,70);
+printf("this building is %10d  cm \n", 890);
+printf("this building is %10d  cm \n", 67890);
+printf("this building is %10d  cm \n", 567890);
+printf("this building is %10d  cm \n", 1234567890);
+
+    return 0;
+}
